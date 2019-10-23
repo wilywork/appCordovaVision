@@ -5,5 +5,10 @@ html, body {
 
 body{
     font: 16px;
-    background-image: linear-gradient(to top, #ED213A, #ED213A);
+    background-image: linear-gradient(to top, #ED213A, #ED2131);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
 }
