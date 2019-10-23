@@ -5,10 +5,20 @@ html, body {
 
 body{
     font: 16px;
-    background-image: linear-gradient(to top, #ED213A, #ED2131);
+    background-image: linear-gradient(to top, rgb(51, 197, 58), rgb(35, 83, 214));
 }
 
 .app {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 80%;
+    height: 60%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 5px;
 }
